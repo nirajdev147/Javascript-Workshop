@@ -1,1 +1,1 @@
-# Javascript Workshop Day2
+# Javascript/Nodejs Workshop Day2
