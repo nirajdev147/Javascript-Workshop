@@ -36,7 +36,7 @@ console.log(juttas[5])
 // let friend2 = "Pranjal"
 // let friendd = ["Aashish","Pranjal"]
 
-// let name = "Manish Basnet"
+// let name = "Niraj Dev"
 // let address = "Itahari" 
 // let age = 22 
 // let college = "Namuna College"
@@ -48,7 +48,7 @@ console.log(juttas[5])
 // // object 
 
 // let myInformation = {
-//     name : "Manish Basnet", 
+//     name : "Niraj Dev", 
 //     address : ["Itahari","Udayapur"], 
 //     age : 22, 
 //     college : "Namuna College"
