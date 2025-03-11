@@ -1,11 +1,11 @@
 // // // let name = "Niraj Dev"
 // // // let age = 22 
-// // // let address = "Dharan"
+// // // let address = "Biratnagar"
 
 // // let me = Object.freeze({
 // //     name : "Niraj Dev", 
 // //     age : 22, 
-// //     address : "Dharan"
+// //     address : "Biratnagar"
 // // })
 
 
@@ -14,7 +14,7 @@
 // // // console.log(me["age"])
 // // // console.log(me["address"])
 
-// // // me.college = "Itahari Namuna College"
+// // // me.college = "Purbanchal University"
 // // // me.haha = "hehehehe"
 // // console.log(Object.keys(me))
 // // console.log(Object.values(me))
@@ -22,7 +22,7 @@
 // let myInfo = {
 //     name : "Niraj Dev", 
 //     age : 22, 
-//     address : "Dharan"
+//     address : "Biratnagar"
 // }
 // // let age = myInfo.age
 // // let address = myInfo.address
@@ -68,18 +68,18 @@
 let myInfo = {
     name : "Niraj", 
     age : "22", 
-    address : "Dharan"
+    address : "Biratnagar"
 }
 
-// if(myInfo.age === 22 || myInfo.address == "Dharan" && myInfo.name == "Niraj" ){
-//     console.log("You can vote in dharan")
+// if(myInfo.age === 22 || myInfo.address == "Biratnagar" && myInfo.name == "Niraj" ){
+//     console.log("You can vote in Biratnagar")
 // }else{
 //     console.log("You cannot vote")
 // }
 
-// myInfo.age === 22 || myInfo.address == "Dharan" || myInfo.name == "Niraj" ? console.log("You can vote in dharan") : console.log("You cannot vote")
+// myInfo.age === 22 || myInfo.address == "Biratnagar" || myInfo.name == "Niraj" ? console.log("You can vote in Biratnagar") : console.log("You cannot vote")
 
-// myInfo.age === 22 && myInfo.address == "Dharan" && console.log("You can vote in dharan") 
+// myInfo.age === 22 && myInfo.address == "Biratnagar" && console.log("You can vote in Biratnagar") 
 
 loops 
 functions 

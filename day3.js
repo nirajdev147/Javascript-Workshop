@@ -39,7 +39,7 @@ console.log(juttas[5])
 // let name = "Niraj Dev"
 // let address = "Itahari" 
 // let age = 22 
-// let college = "Namuna College"
+// let college = "Purbanchal College"
 
 // let productName = "apple"
 // let productPrice = 300 
@@ -51,7 +51,7 @@ console.log(juttas[5])
 //     name : "Niraj Dev", 
 //     address : ["Itahari","Udayapur"], 
 //     age : 22, 
-//     college : "Namuna College"
+//     college : "Purbanchal College"
 // }
 
 

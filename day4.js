@@ -36,7 +36,7 @@
 // // output --> [1,"hello","bye","world",5,6]
 // data.splice(1,3,"hello","bye","world")
 // console.log(data)
-// // data.splice(1,1,"Manish")
+// // data.splice(1,1,"Niraj")
 // // console.log(data)
 
 // let characters = ['m','a','n','i','s','h']
