@@ -1,5 +1,6 @@
 
 /*------------------------------------loop in javascript----------------------------------------*/
+
 //Loops are used to execute the code again and again until the condition is false.
 
 
@@ -90,7 +91,7 @@
 
 // let days = ["Sun","Mon","Tues","Wed", "Thurs","Fri","Sat"]
 // for(let day of days){
-//     console.log(day)
+//     console.log(day);
 // }
 
 // let str = "Programming";
@@ -100,7 +101,7 @@
 //     size++;
 // }
 
-// console.log("size =", size)
+// console.log("size =", size);
 
 // let datas = [
 //     {
@@ -114,13 +115,13 @@
 // ]
 
 // for(let data of datas ){
-//     console.log(data.region)
+//     console.log(data.region);
 // }
 
 // let names = ["Niraj","Anish","Ish"]
 // for(let name of names){
-//     console.log("My name is " + name)
-//     console.log(`My name is ${name}`)
+//     console.log("My name is " + name);
+//     console.log(`My name is ${name}`);
 // }
 
 // let informations = [
@@ -134,7 +135,7 @@
 //     }
 // ]
 // for(let information of informations){
-//     console.log(information.name + " age is " + information.age)
+//     console.log(information.name + " age is " + information.age);
 // }
 
 
@@ -150,8 +151,8 @@
 
 // let student ={
 //     name : "Niraj",
-//     age : 22,
-//     address : "Kathmandu",
+//     age : 24,
+//     address : "Biratnagar",
 //     phone : "9812345678"
 // }
 
@@ -300,26 +301,27 @@
 
 
 /*--------------------------------=-------function in javascript-----------------------------------------*/
+
 // function is a block of code that can be reused. It is used to perform a specific task.
 
 // regular function 
 // function addTwoNumber(a,b,c=3){
-//     console.log(a+b+c)
+//     console.log(a+b+c);
 // }
 
 // addTwoNumber(1,2,10)
 
 // arrow function 
 // let addTwoNumber = (a,b,c=3)=>{
-//     console.log(a+b+c)
+//     console.log(a+b+c);
 // }
-// addTwoNumber(1,2,10)
-// addTwoNumber(2,2,2)
+// addTwoNumber(1,2,10);
+// addTwoNumber(2,2,2);
 
 // let informations = [
 //         {
 //             name : "Niraj", 
-//             age : 22
+//             age : 24
 //         }, 
 //         {
 //             name : "Anish", 
@@ -331,7 +333,7 @@
 
 // function printInformation(haha){
 //     for(let information of haha){
-//         console.log(information.name + " age is " + information.age)
+//         console.log(information.name + " age is " + information.age);
 //     }
 // }
 // let printInformation = ()=>{
@@ -344,7 +346,7 @@
 // let days = ["Sun","Mon","Tues","Wed"]
 // function printDays(day){
 //     for(let days of day ){
-//         console.log("Today is " + day)
+//         console.log("Today is " + day);
 //     }
 // }
 // printDays(days)

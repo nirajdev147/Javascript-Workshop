@@ -3,8 +3,8 @@
 
 //Arithmetic Operators
 
-// let a = 5
-// let b = 2
+// let a = 5;
+// let b = 2;
 // console.log("a=",a, "b=",b);
 // a++;  b--;                       //post increment and decrement operator
 // ++a; --b;                        //pre increment and decrement operator
