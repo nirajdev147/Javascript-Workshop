@@ -1,0 +1,48 @@
+body{
+    background-color: antiquewhite;
+}
+
+/* #heading{
+    background-color: black;
+    color: white;
+}
+
+p{
+    background-color: lightblue;
+    color: black;
+}
+
+button{
+    background-color: black;
+    color: white;
+    padding: 10px 20px;
+}
+
+.box{
+    width: 100px;
+    height: 100px;
+    background-color: azure;
+    text-align: center;
+    border: 1px solid black;
+    margin: 5px;
+} */
+
+/* 
+#box{
+    width: 100px;
+    height: 100px;
+    background-color: azure;
+    text-align: center;
+    border: 1px solid black;
+} */
+
+
+
+.content{
+    color: red;
+}
+
+
+.newContent{
+    background-color: green
+}
