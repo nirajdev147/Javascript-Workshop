@@ -38,11 +38,31 @@ button{
 
 
 
-.content{
+/* .content{
     color: red;
 }
 
 
 .newContent{
     background-color: green
+} */
+
+
+
+/* div{
+    height: 100px;
+    width: 100px;
+    background-color: aqua;
+    color: black;
+    border: 1px solid black;
+} */
+
+.dark{
+    background-color: black;
+    color: white;
+}
+
+.light{
+    background-color: white;
+    color: black;
 }
