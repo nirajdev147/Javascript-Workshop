@@ -5,7 +5,7 @@
 
 
 // Mouse events (click, double click etc.)
-// Keyboard events (keydown, keyup, keydown)
+// Keyboard events (keypress, keyup, keydown)
 // Form events (submit etc.)
 // Print event & many more.
 
@@ -34,6 +34,7 @@
 
 
 // Always remember JS handling has the highest priority over HTML handling.
+
 
 
 // let box = document.querySelector("div");
@@ -111,33 +112,35 @@
 //     console.log("Button 1 clicked-handler2");
 // });
 
-// btn1.addEventListener("click", () => {
+// // The event listener can be removed using removeEventListener method.
+// const handler3 = () => {
 //     console.log("Button 1 clicked-handler3");
-// });
+// };
 
+// btn1.addEventListener("click", handler3); // This is a named function, so we can remove it later.
+// btn1.addEventListener("click", () => {
+//     console.log("Button 1 clicked-handler4"); //  
+// });
 
 // btn1.removeEventListener("click", () => {    
 //     console.log("Button 1 clicked-handler3");
 // });   //Both are different function, but works as same.
 
-// const handler4 = () => {
-//     console.log("Button 1 clicked-handler4");
-// };
 
-// btn1.addEventListener("click", handler4);
-// btn1.removeEventListener("click", handler4); //This will remove the event listener.
+
+// btn1.removeEventListener("click", handler3); //This will remove the event listener.
 
 
 
 
 
-//Practice QS1:-
+/*-------------------------------------------Practice QS1:---------------------------------------*/
 
 // Create a toggle button that changes the screen to dark-mode when clicked and light mode when clicked again.
 
-// let modeBtn = document.querySelector("#mode");
-// let body = document.querySelector("body");
-// let currMode = "light";
+let modeBtn = document.querySelector("#mode");
+let body = document.querySelector("body");
+let currMode = "light";
 
 
 // modeBtn.addEventListener("click", () =>{
@@ -154,15 +157,15 @@
 // })
 
 
-// modeBtn.addEventListener("click", () =>{
-//     if (currMode === "light"){
-//         currMode = "dark";
-//         body.classList.add("dark");
-//         body.classList.remove("light");
-//     }else{
-//         currMode = "light";
-//         body.classList.add("light");
-//         body.classList.remove("dark");
-//     }
-//     console.log(currMode);
-// })
+modeBtn.addEventListener("click", () =>{
+    if (currMode === "light"){
+        currMode = "dark";
+        body.classList.add("dark");
+        body.classList.remove("light");
+    }else{
+        currMode = "light";
+        body.classList.add("light");
+        body.classList.remove("dark");
+    }
+    console.log(currMode);
+})

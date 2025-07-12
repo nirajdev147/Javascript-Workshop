@@ -27,8 +27,8 @@ button{
     margin: 5px;
 } */
 
-/* 
-#box{
+
+/* #box{
     width: 100px;
     height: 100px;
     background-color: azure;
@@ -38,24 +38,24 @@ button{
 
 
 
-/* .content{
+.content{
     color: red;
 }
 
 
 .newContent{
-    background-color: green
-} */
+    background-color: green;
+}
 
 
 
-/* div{
+div{
     height: 100px;
     width: 100px;
     background-color: aqua;
     color: black;
     border: 1px solid black;
-} */
+}
 
 .dark{
     background-color: black;

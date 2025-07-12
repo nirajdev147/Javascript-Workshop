@@ -1,5 +1,5 @@
 /*-------------------------------------------Array-------------------------------------------*/
-// arraya are the collection of items
+// Arrays are the collection of items
 
 // let marks = [ 84, 87, 86, 89, 90];
 // console.log("marks: " + marks);
@@ -32,7 +32,7 @@
 // let sum = 0;
 
 // for ( let val of marks){
-//     sum = sum + val;
+//     sum += val;
 //     console.log(sum);
 // }
 
@@ -72,6 +72,7 @@
 // console.log(juttas);
 
 /*--------------------------- pop(): delete from end and return----------------------*/
+
 // let juttas = ["goldstar","addidas","nike"]
 // console.log(juttas);
 // let deletedShoes = juttas.pop();
@@ -89,9 +90,8 @@
 // console.log("Deleted :" , val );
 
 
-
-// juttas[1] = "Umbro"
 // juttas[0] = "goldstar;"
+// juttas[1] = "Umbro"
 // console.log(juttas[0]);
 // console.log(juttas[1]);
 
@@ -113,72 +113,122 @@
 
 // let castofGot = ["emilia clarke", "jhon snow", "Arya Stark"];
 // let castofDragon = ["Balerion", "Vhagar", "Caraxes", "Drogon"];
-// let allCast = castofGot.concat(castofDragon);
+// let castofDragon2 = ["Balerion", "Vhagar", "Caraxes", "Drogon", "Syrax"];
+// let allCast = castofGot.concat(castofDragon.concat(castofDragon2));
 //  console.log(allCast);
 
 
 
 
-// let country1 = "Nepal";
-// let country2 = "India";
-// let country3 = "Pakistan";
+let country1 = "Nepal";
+let country2 = "India";
+let country3 = "Pakistan";
 
-// let countrys = [{
-//     name : "Nepal"
-// }, {
-//     name : "India"
-// },{
-//     name : "Pakistan"
-// }]
-
-// let friend = "Aashish";
-// let friend2 = "Pranjal";
-// let friendd = ["Aashish","Pranjal"];
-
-// let name = "Niraj Dev";
-// let address = "Biratnagar"; 
-// let age = 24;
-// let college = "Purbanchal College";
-
-// let productName = "apple";
-// let productPrice = 300 ;
-// let productQty = 2;
-
-// // object 
-
-// let myInformation = {
-//     name : "Niraj Dev", 
-//     address : ["Biratnagar","Morang"], 
-//     age : 24, 
-//     college : "Purbanchal College"
-// }
+let countrys = [{
+    name : "Nepal"
+}, {
+    name : "India"
+},{
+    name : "Pakistan"
+}]
 
 
-// let myProduct = {
-//     productName : "apple", 
-//     productPrice : 300, 
-//     productQty : 2
-// }
 
-/*-----------------------------------Start of Case (Casing)-----------------------------------*/
+let friend = "Aashish";
+let friend2 = "Pranjal";
+let friend3 = ["Aashish","Pranjal"];
 
-// 1. PascalCase (JAVA)
+let name = "Niraj Dev";
+let address = "Biratnagar"; 
+let age = 24;
+let college = "Purbanchal College";
 
-// iloveprogramming --> PascalCase --> ILoveProgramming -
+let productName = "apple";
+let productPrice = 300 ;
+let productQty = 2;
+
+/*------------------------------------Start of Object-----------------------------------*/
+
+let myInformation = {
+    name : "Niraj Dev", 
+    address : ["Biratnagar","Morang"], 
+    age : 24, 
+    college : "Purbanchal College"
+}
+
+
+let myProduct = {
+    productName : "apple", 
+    productPrice : 300, 
+    productQty : 2
+}
+
+/*-----------------------------------Start of Case (Casing)------------------------------------------*/
+
+// Case (Casing) is the way of writing the variable names in different styles.
+
+/*----------------------------------------- Start of PascalCase (JAVA)-----------------------------------*/
+
+
+// iloveprogramming --> PascalCase --> ILoveProgramming
+
+
 // iamfromnepal --> PascalCase --> IAmFromNepal
 
-// 2. camelCase (Javascript)
+
+/*----------------------------------------- End of PascalCase (JAVA)-----------------------------------*/
+
+
+
+
+
+
+/*----------------------------------------- Start of camelCase (Javascript)-----------------------------------*/
+
 
 // iloveprogramming --> camelCase --> iLoveProgramming
+
 // iamfromnepal --> camelCase ---> iAmFromNepal
 
 
-// 3. kebab-case (VUE)
+
+/*----------------------------------------- End of camelCase (Javascript)-----------------------------------*/
+
+
+
+
+
+
+/*----------------------------------------- Start of kebab-case (VUE)-----------------------------------*/
+
+
 // iloveprogramming --> kebab-case --> i-love-programming
 
-// 4. snake_case(PYTHON)
+// iamfromnepal --> kebab-case --> i-am-from-nepal
+
+
+
+/*----------------------------------------- End of kebab-case (VUE)-----------------------------------*/
+
+
+
+
+
+
+/*----------------------------------------- Start of snake_case (PYTHON)-----------------------------------*/
+
+
+
 // iloveprogramming --> i_love_programming
+
 // iamfromnepal -->- i_am_from_nepal
+
+
+
+/*----------------------------------------- End of snake_case (PYTHON)-----------------------------------*/
+
+
+
 
 
 /*-------------------------------End of Case (Casing)-----------------------------------*/

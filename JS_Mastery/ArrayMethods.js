@@ -21,9 +21,10 @@
 // let slicedDays = days.slice(1,4);
 // console.log(slicedDays);
 
-// let evenNums = [2,4,6,8,10];
+
+// let evenNums = [2,4,6,8,10,12];
 // console.log(evenNums);
-// let slicedEvenNums = evenNums.slice(3,5);
+// let slicedEvenNums = evenNums.slice(2,5);
 // console.log(slicedEvenNums);
 
 
@@ -69,12 +70,11 @@
 
 // create an array to store companies --> ["Bloomberg","Microsoft","Google","Uber","IBM", "Netflix"]
 
-// Remove the first company from the array
+// Remove the first company from the array 
 // Remove Uber and add Ola in its place
 // Add Amazon at the end of the array
 
 // let companies = ["Bloomberg","Microsoft","Google","Uber","IBM", "Netflix"];
-
 // console.log(companies.shift());
 // console.log(companies);
 
@@ -87,6 +87,9 @@
 
 
 /*-------------------------------------- start of split() --------------------------------------*/ 
+
+// split: convert string to array
+
 // let message = "i am from biratnagar";
 // let splittedMessage = message.split(" ");
 // console.log(splittedMessage);

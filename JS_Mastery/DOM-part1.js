@@ -51,10 +51,6 @@
 // let button = document.getElementById("myId");
 // console.dir(button);
 
-// let button = document.getElementById("myId");
-// console.dir(button);
-
-
 
 
 
@@ -118,19 +114,30 @@
 // textContent - returns the text inside the element (including hidden elements).
 
 
-//Practice QS1:-
+/*-------------------------------------------Practice QS1:-----------------------------------*/
+
 // Create h1 element with text "Hello ! Niraj".append from Biratnagar" to the text using JS.
 
 // let h1 = document.querySelector("h1");
 // console.dir(h1.innerText);
 
 // h1.innerText = h1.innerText +" From Biratnagar"; // concatenate
+// console.log(h1.innerText);
 
 
-
-//Practice QS2:-
+/*-------------------------------------------Practice QS2:-------------------------------------*/
 
 // Create a 3 div with a common class name = "box". Access them and add some unique text to each of them using JS.
+
+
+// let divs = document.querySelectorAll(".box");
+// divs[0].innerText = "This is a box 1"; // add text to first div
+// divs[1].innerText = "This is a box 2"; // add text  to second div
+// divs[2].innerText = "This is a box 3"; // add text to third div
+// console.log(divs);
+
+
+/*-----------------------------Alternative way to add text to each div using a loop-----------------------*/
 
 // let divs = document.querySelectorAll(".box");
 // let idx = 1;
@@ -138,3 +145,8 @@
 //     div.innerText = `This is a box ${idx}`; // add text to each div
 //     idx++;
 // }
+
+
+
+
+/*-------------------------------Read about text , comment , element in MDN docs also about childNodes, firstChild, lastChild--------------------------*/

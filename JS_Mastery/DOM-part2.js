@@ -29,10 +29,12 @@
 // let para = document.querySelector("p");
 // console.log(para.setAttribute("class", "newClass"));
 
-// div.style.backgroundColor = "red";
-// div.style.fontSize = "20px";
-// div.style.color = "white";
-// div.innerText = "Hello World!";
+// div.style.backgroundColor = "purple";
+// div.style.fontSize = "30px";
+// div.style.color = "grey";
+// div.style.visibility = "hidden"; 
+// div.innerText = "Keep Quiet!";
+
 
 
 
@@ -43,16 +45,28 @@
 /*---------------------------------- node.append(el);  // to add the element at the end of the node(inside)-------===--*/
 
 
-// let div = document.querySelector("div");
-// div.append(newBtn);
+
 
 // let newBtn = document.createElement("button");
 // newBtn.innerText = "Click Me!"
 // console.log(newBtn);
 
+// let div = document.querySelector("div");
+// div.append(newBtn);
 
+// let newHeading = document.createElement("h1");
+// newHeading.innerHTML = "<i>Hello ! Niraj</i>";
 
+// document.querySelector("body").append(newHeading); 
 
+// let para = document.querySelector("p");
+// para.remove(); // removes the paragraph element
+
+//for multiple para 
+// let para = document.querySelectorAll("p");
+// para.forEach(para => {
+//     para.remove();
+// })
 
 /*------------------------------- node.prepend(el); // to add the element at the beginning of the node(inside)-----------------*/
 
@@ -80,6 +94,9 @@
 // let p = document.querySelector("p");
 // p.after(newBtn);
 
+
+
+
 /*-----------------------------------------Delete Element------------------------------------------*/
 
 //  node.remove(); // removes the node
@@ -99,7 +116,7 @@
 
 
 
-//Pratice QS1
+/*---------------------------------------------Pratice QS1--------------------------------------------------*/
 
 // Create a new button with a text click Me! and set the background color to red and text color to white using JS
 
@@ -115,7 +132,7 @@
 
 
 
-//Pratice QS2
+/*---------------------------------------------Pratice QS2--------------------------------------------------*/
 
 // Create a <p> tag in a html and give it a class name and some style . And now Create a new class in a css and try to append this class to the <p> element. Did you see any changes? Solve this problem using classList property.
 

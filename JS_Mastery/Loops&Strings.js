@@ -24,11 +24,12 @@
 
 
 // let sum = 0;
-// let n = 100;
+// let n = 10;
 // for (let i = 1; i <= n; i++){
 //     sum = sum + i;
 // }
 // console.log("sum =" ,sum);
+// console.log("loop has ended");
 
 // output
 // 0 + 1 = 1 , sum = 1 
@@ -36,6 +37,11 @@
 // 3 + 3 = 6 , sum = 6
 // 6 + 4 = 10 , sum = 10
 // 10 + 5 = 15 , sum = 15
+// 15 + 6 = 21 , sum = 21
+// 21 + 7 = 28 , sum = 28
+// 28 + 8 = 36 , sum = 36
+// 36 + 9 = 45 , sum = 45
+// 45 + 10 = 55 , sum = 55
 
 
 /*-------------------------------------------End of for loop----------------------------------------*
@@ -71,6 +77,8 @@
 // }while(i<=5);
 
 
+
+
 /*-------------------------------------------End of do-while loop----------------------------------------*/
 
 
@@ -94,14 +102,17 @@
 //     console.log(day);
 // }
 
+
+
 // let str = "Programming";
 // let size = 0;
 // for(let val of str){
 //     console.log(val);
 //     size++;
 // }
-
 // console.log("size =", size);
+
+
 
 // let datas = [
 //     {
@@ -114,15 +125,21 @@
 //     }
 // ]
 
+
+
 // for(let data of datas ){
 //     console.log(data.region);
 // }
+
+
 
 // let names = ["Niraj","Anish","Ish"]
 // for(let name of names){
 //     console.log("My name is " + name);
 //     console.log(`My name is ${name}`);
 // }
+
+
 
 // let informations = [
 //     {
@@ -140,6 +157,8 @@
 
 
 /*-------------------------------------------End of for-of loop----------------------------------------*/
+
+
 
 /*-------------------------------------------Start of for-in loop----------------------------------------*/
 
@@ -161,6 +180,8 @@
 // }
 
 
+
+
 //practice Qs1
 //print all the even numbers from 0 to 100
 
@@ -171,6 +192,15 @@
 // }
 
 //practice Qs2
+//print all the odd numbers from 0 to 100
+
+// for (let num = 0; num <= 100; num++){
+//     if (num % 2 !== 0){
+//         console.log(num);
+//     }
+// }
+
+//practice Qs3
 //create a game where you start with any random given number. Ask the user to keep guessing the  game number until the user enters the correct value.
 
 // let gameNum = 7;
@@ -180,6 +210,8 @@
 //     userGuess = prompt("You entered the wrong random number. Please! Guess again:");
 // }
 // console.log("Congratulations! You guessed the correct number.");
+
+
 
 /*-------------------------------------------End of for-in loop----------------------------------------*/
 
@@ -213,7 +245,7 @@
 //   price : 10
 // }
 
-// console.log("the cose of " + obj.item , " is " , obj.price , "rupees");
+// console.log("the cost of " + obj.item , " is " , obj.price , "rupees");
 
 // let output = `the cost of ${obj.item} is ${obj.price}`;
 // console.log(output);
@@ -229,29 +261,39 @@
 
 //uppercase
 // let str = "hello world";
-// let newStr = str.toUpperCase();
+//  newStr = str.toUpperCase();
 // console.log(str);
 // console.log(newStr);
 
 
 //lowercase
 // let str = "HELLO WORLD";
-// str = str.toLowerCase();
-// console.log(str);
+// newStr = str.toLowerCase();
+// console.log(newStr);
+// console.log(str.length); 
 
 //trim whitespace
 // let str = "            Hacker's Delight              ";
 // console.log(str.trim());
 
 
-//string slice
+
+
+
+/*--------------------------------string Slice--------------------------------*/
+
 //syntax: 
 //str.slice(start, end?)
 
 // let str = "Niraj";
 // console.log(str.slice(0, 3)); 
 
+
+
+
+
 /*--------------------------------string concatenation--------------------------------*/
+
 //syntax:
 //str1.concat(str2) --> joins str2 with str1
 
@@ -281,19 +323,27 @@
 //str.charAt(index)
 
 // let str = "Niraj";
-// str = str.replace("N", "Dh");
-// console.log(str.charAt(0)); // N
-// console.log(str); // r
+// str = str.replace("N", "Dh"); 
+// console.log(str); //output--->Dhiraj
+// console.log(str.charAt(0)); //output---->D
+ 
+
+
 // /*-------------------------------------------End of Strings----------------------------------------*/
 
 
-//practice Qs1: 
+//practice Qs4: 
+
+
 // Promt the user to enter their full name. Generate a username for them based on the input. Start username with @, followed by their full name and ending with the full name length.
 
 
 // let fullName = prompt("Enter your full name: ");
 // let userName = "@" + fullName + fullName.length;
-// console.log(userName); // 
+// console.log(userName); 
+
+
+// output-->@NirajDev8
 
 
 

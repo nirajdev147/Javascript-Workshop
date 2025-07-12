@@ -22,20 +22,27 @@
 
 // let a = 4;
 // let b = 2;
-// a += 4;      // a = a + 4
+// a += 4;   // a = a + 4
 // a -= 4;   // a = a - 4
 // a *= 4;   // a = a * 4
 // a /= 4;   // a = a / 4
 // a **= 4;  // a = a ** 4
-// a %= 4;  // a = a % 4
+// a %= 4;   // a = a % 4
 // console.log("a =", a); 
+
+
+
+// == (Equal to) Operator
+// != (Not equal to) Operator
+// === (Strict equal to) Operator
+// !== (Strict not equal to) Operator
 
 
 //Comparison Operators
 // let a = 4;
 // let b = 5;
 
-// //console.log("5 !== 5",a !== b);
+// console.log("5 !== 5",a !== b);
 // console.log("4 <= 5", a <= b);
 
 
@@ -43,50 +50,52 @@
 // let a = 7;
 // let b = 5;
 
-// // let cond1 = a > b;  //true
-// // let cond2 = a === 7;  //true
-// // console.log("cond1 && cond2", a > b && a === 7);     //logical  AND operator
-// // console.log("cond1 || cond2", a > b || a === 7);     //logical  OR operator
-// console.log("!(a > b)", !(a > b));                      //logical OR operator
+//  let cond1 = a > b;  //true
+//  let cond2 = a === 7;  //true
+//  console.log("cond1 && cond2", a > b && a === 7);     //logical AND operator
+//  console.log("cond1 || cond2", a > b || a === 7);     //logical OR  operator
+//  console.log("!(a > b)", !(a > b));                   //logical OR  operator
 
 
 
 
 
-// // // let name = "Niraj Dev";
-// // // let age = 24 ;
-// // // let address = "Biratnagar";
+// let name = "Niraj Dev";
+// let age = 24 ;
+// let address = "Biratnagar";
 
-// // let me = Object.freeze({
-// //     name : "Niraj Dev", 
-// //     age : 24, 
-// //     address : "Biratnagar"
-// // })
+// let me = Object.freeze({
+//     name : "Niraj Dev", 
+//     age : 24, 
+//     address : "Biratnagar"
+// })
 
 
-// // // console.log(me.age)
-// // // console.log(me.address)
-// // // console.log(me["age"])
-// // // console.log(me["address"])
+// console.log(me.age)
+// console.log(me.address)
+// console.log(me["age"])
+// console.log(me["address"])
 
-// // // me.college = "Purbanchal University"
-// // // me.haha = "hehehehe"
-// // console.log(Object.keys(me))
-// // console.log(Object.values(me))
+
+// me.college = "Purbanchal University"
+// me.haha = "hehehehe"
+// console.log(Object.keys(me))
+// console.log(Object.values(me))
+
 
 // let myInfo = {
 //     name : "Niraj Dev", 
 //     age : 24, 
 //     address : "Biratnagar"
 // }
-// // let age = myInfo.age;
-// // let address = myInfo.address;
-// // let name = myInfo.name;
+// let age = myInfo.age;    //single variable declaration
+// let address = myInfo.address;
+// let name = myInfo.name;
 
-// // destructure 
-// // let {name,age} = myInfo;
+// destructure 
+// let {name,age,address} = myInfo;    //multiple variable declaration in one line
 
-// // console.log(age,name);
+// console.log(age,name,address);
 
 
 
@@ -99,8 +108,10 @@
 //     console.log("Dont carry umbrella")
 // }
 
-// // ternary operator condition ? "if true" : "if false"
-// In shorthand a?: b : c
+
+//  ternary operator 
+// condition ? "if true" : "if false"
+// In shorthand a? b : c
 
 
 // let isRaining = true;
@@ -109,16 +120,14 @@
 // let age = 17;
 // age >= 18? console.log("You are adult") : console.log("You are not adult");
 
-
-// // short-circuit condition && "if left ko condition true vayo vane "
-// // isRaining && console.log("Carry Umbrella")
-// // age > 21, You can vote, else You cannot vote
 // let age = 21;
 // if(age == 21){
 //     console.log("You can vote");
 // }else{
 //     console.log("You cannot vote");
 // }
+
+
 
 // let temperature = 25;
 // if(temperature > 30){
@@ -130,21 +139,22 @@
 // }
 
 
-// let myInfo = {
-//     name : "Niraj", 
-//     age : "24", 
-//     address : "Biratnagar"
-// }
+let myInfo = {
+    name : "Niraj", 
+    age : "24", 
+    address : "Biratnagar"
+}
 
-// if(myInfo.age === 22 || myInfo.address == "Biratnagar" && myInfo.name == "Niraj" ){
+
+
+// if(myInfo.age > 20 ){
 //     console.log("You can vote in Biratnagar");
 // }else{
-//     console.log("You cannot vote");
+//     console.log("You cannot vote in biratnagar");
 // }
 
-// myInfo.age === 22 || myInfo.address == "Biratnagar" || myInfo.name == "Niraj" ? console.log("You can vote in Biratnagar") : console.log("You cannot vote")
+// myInfo.age > 20 ? console.log("You can vote in Biratnagar") : console.log("You cannot vote")
 
-// myInfo.age === 22 && myInfo.address == "Biratnagar" && console.log("You can vote in Biratnagar") 
 
 
 // let mode = "dark";
@@ -162,19 +172,29 @@
 
 // console.log(color);
 
+
+
 // if (mode === "dark") {
 //     console.log(mode);
 // }
 
-// let num = 10;
+
+// WAQ to determine whether a number is even or odd
+
+// let num = 4;
 // if ( num%2 === 0){
 //     console.log( "Even Number");
 // }else{
 //     console.log("Odd Number");
 // }
 
+
+
+
 //practice Qs1
 //Get user to input a number using the prompt("Enter a number:") and check whether the number is multiple of 5 or not.
+
+
 // let num = prompt("Enter a number:");
 // if (num % 5 === 0){
 //     console.log( "Number is divisible by 5");
@@ -182,6 +202,7 @@
 //     console.log("Number is not divisible by 5");
 // }
     
+
 
 //practice Qs2
 //Write a code which can give the grades to students based on the marks they scored.

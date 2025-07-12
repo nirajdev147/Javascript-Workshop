@@ -48,7 +48,7 @@
 
 // function mySum(x, y) {
 //   s = x + y;
-//   return s;
+//   return s;      // return x + y; // function returns the sum of x and y
 // }
 
 // let val = mySum(100, 20);
@@ -82,6 +82,7 @@
 // }
 
 
+
 // function mul(x, y) {
 //   return x * y;
 // }
@@ -105,7 +106,12 @@
 // }
 // printInformation();
 
+
+
+
+
 //Practice QS1:-
+
 // Create a function using the "function" Keyword that takes a string as an argument and returns the number of vowels in the string.
 
 
@@ -138,6 +144,11 @@
 
 /* -----------------------------------------End of Arrow function-----------------------------------------*/
 
+
+
+
+
+
 /* -----------------------------------------forEach loop in Arrays-----------------------------------------*/
 
 //forEach => It is used in the normal calculation or to print value
@@ -150,7 +161,7 @@
 // CallBackFunction : Here , it is a function to exectue for each element in the array
 
 // *A callback is a function passed as an argument to another function.
-
+ 
 
 
 
@@ -244,9 +255,13 @@
 /*---------------------------------------Some more Array Methods-----------------------------------------*/
 
 
-/*--------------------------------Start of Map method-----------------------------------------*/
 
-// Map method is used to create a new array with the result of some operation and return it. The value its callback return are used to form a new array
+
+
+/*---------------------------------------Start of Map method-------------------------------------------*/
+
+
+// Map method is used to create a new array with the result of some operation and return it. The value its callback return are used to form a new array.
 
 //syntax:
 // arr.map(callbackFnx(value, idx, arr))
@@ -264,7 +279,21 @@
 // })
 // console.log(newArr);
 
-/*---------------------------------------End of Map method-----------------------------------------*/
+
+// let nums = [40, 50, 60, 70, 80];
+// let newArr = nums.map((val)=>{
+//     return val + 10;
+// })
+
+// console.log(newArr); // [50, 60, 70, 80, 90]
+
+/*-------------------------------------------End of Map method-----------------------------------------*/
+
+
+
+
+
+
 
 /*---------------------------------------Start of Filter method-----------------------------------------*/
 
@@ -306,6 +335,8 @@
 // arr.reduce(callbackFnx(accumulator, currentValue, index, arr), initialValue)
 // initialValue is optional
 
+
+
 // let arr = [1 , 2 , 3 , 4 , 5 , 6 , 7 , 8 , 9 , 10];
 
 //  const output = arr.reduce((res, curr) => {
@@ -329,6 +360,9 @@
 
 
 
+
+
+
 //Practice QS2:-
 // From the given array of marks of students. Find out the marks of the student that scored 90+.
 
@@ -339,6 +373,8 @@
 // })
 
 // console.log(highestScore); 
+
+
 
 
 
@@ -392,6 +428,7 @@
 // }
 
 
+//using arrow function
 
 // let printInformation = (haha)=>{
 //   for(let information of haha){
@@ -399,6 +436,7 @@
 // }
 // }
 
-//printInformation(informations);
+// printInformation(informations);
 
 
+/*---------------------------------------End of Reduce method-----------------------------------------*/
